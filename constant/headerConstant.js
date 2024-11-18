@@ -1,9 +1,7 @@
 export const logoImage = "/vouelosbaratos-logo.jpg";
 export const logoMobileImage = "logo";
 export const callIcon = "/customer-service.png";
-export const phoneNumber = "+1 (855) 557 0050";
-export const website = "vuelomasbarato.com";
-export const contactEmail = "support@dsrtravelsllc.com";
+export const phoneNumber = "+1 52 8004610995";
+export const website = "reservasvuelo.com";
+export const contactEmail = "info@reservasvuelo.com";
 export const popupImage = "/popup-img.png";
-
-

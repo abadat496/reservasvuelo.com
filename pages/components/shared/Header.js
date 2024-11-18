@@ -10,7 +10,7 @@ import {
 import LazyImage from "../ui/LazyImage";
 import MobileSection from "./MobileHeader";
 
-const Header = ({langData}) => {
+const Header = ({ langData }) => {
   const router = useRouter();
   const [width, setWidth] = useState(0);
   const [isMenuCollapsed, setIsMenuCollapsed] = useState(true);
@@ -49,8 +49,7 @@ const Header = ({langData}) => {
           display: `${width > 767 || !query?.airline ? "block" : "none"}`,
         }}
       >
-
-{/* <div className="fixed call-bg d-block d-md-block d-lg-none">
+        {/* <div className="fixed call-bg d-block d-md-block d-lg-none">
         <Link href={`tel:${phoneNumber}`} >
           <p>Llama ahora</p>
           <h4> {phoneNumber}</h4>
@@ -63,7 +62,7 @@ const Header = ({langData}) => {
           <div className="container">
             <Link href="/" className="navbar-brand">
               <LazyImage
-                src={`/${logoMobileImage}-logo.png`}
+                src={`/${logoMobileImage}.png`}
                 className="img-fluid"
                 alt="Logo"
                 imageSizes={32}
@@ -85,9 +84,9 @@ const Header = ({langData}) => {
             </button>
 
             <div
-             className={`collapse navbar-collapse flex-grow-1 text-right ${
-              isMenuCollapsed ? "collapse" : ""
-            }`}
+              className={`collapse navbar-collapse flex-grow-1 text-right ${
+                isMenuCollapsed ? "collapse" : ""
+              }`}
               id="navbarsExample09"
             >
               <ul className="navbar-nav ms-auto flex-nowrap">
@@ -100,8 +99,8 @@ const Header = ({langData}) => {
                     href={"/"}
                     onClick={toggleMenu}
                   >
-                   {" "}
-                   Hogar
+                    {" "}
+                    Hogar
                   </Link>
                 </li>
 
@@ -148,26 +147,25 @@ const Header = ({langData}) => {
                   </ul>
                 </li> */}
 
-                 
-
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${
                       router.pathname === "/privacy-policy" && "active"
                     }`}
-                    href={"privacy-policy"} onClick={toggleMenu}
+                    href={"privacy-policy"}
+                    onClick={toggleMenu}
                   >
-                    Política de privacidad 
+                    Política de privacidad
                   </Link>
                 </li>
-               
 
                 <li className="nav-item">
                   <Link
                     className={`nav-link ${
                       router.pathname === "/contact-us" && "active"
                     }`}
-                    href={"contact-us"} onClick={toggleMenu}
+                    href={"contact-us"}
+                    onClick={toggleMenu}
                   >
                     Contacto
                   </Link>
@@ -176,16 +174,15 @@ const Header = ({langData}) => {
 
               <div className="pull-right phone-number d-lg-block">
                 <ul>
-                    <li className="blink">
+                  <li className="blink">
                     <LazyImage
                       width={50}
                       height={50}
                       imageSizes={16}
-                       src="/call.png"
+                      src="/call.png"
                     />
-                  </li>  
+                  </li>
                   <li>
-                    
                     <h5>
                       <Link href={`tel:${phoneNumber}`}>{phoneNumber}</Link>
                     </h5>
