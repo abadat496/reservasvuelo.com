@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flight Booking Confirmation</title>
+    <style>
+        .box-center {
+            background: #fff;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .tra-tab .nav-tabs .nav-link {
+            background: #fff;
+            color: #000;
+            margin: 0;
+            font-weight: 500;
+            border: #e9ecef solid 1px;
+        }
+
+        .expend p {
+            font-size: 13px;
+        }
+
+        .flight-box {
+            background: #FFFFFF;
+            border: #ebebeb dashed 1px;
+            box-shadow: #f3f3f3 0px 0px 5px;
+            border-radius: 0px;
+            padding: 0px;
+        }
+
+        .flight-box img {
+            height: 30px;
+        }
+
+        .flight-box span {
+            font-size: 13px;
+            line-height: 15px;
+            font-weight: 400;
+            color: #73767f;
+        }
+
+        .flight-box hr {
+            margin: 5px 0;
+        }
+
+        .flight-time {
+            color: #313541;
+            text-transform: lowercase;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .airport-name {
+            font-size: .875rem;
+            color: #73767f;
+        }
+
+        .trip-duration {
+            font-size: .75rem;
+            color: #313541;
+        }
+
+        .protection-box {
+            background: #FFFFFF;
+            border: #ebebeb dashed 1px;
+            box-shadow: #f3f3f3 0px 0px 5px;
+            border-radius: 0px;
+            padding: 0px;
+        }
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs-gutter-y) * -1);
+            margin-right: calc(var(--bs-gutter-x) * -.5);
+            margin-left: calc(var(--bs-gutter-x) * -.5);
+        }
+
+        .col-4 {
+            flex: 0 0 auto;
+            width: 33.33333333%
+        }
+
+        .col-5 {
+            flex: 0 0 auto;
+            width: 41.66666667%
+        }
+
+        .col-6 {
+            flex: 0 0 auto;
+            width: 50%
+        }
+
+        .col-7 {
+            flex: 0 0 auto;
+            width: 58.33333333%
+        }
+
+        .col-8 {
+            flex: 0 0 auto;
+            width: 66.66666667%
+        }
+
+        .col-9 {
+            flex: 0 0 auto;
+            width: 75%
+        }
+
+        .col-10 {
+            flex: 0 0 auto;
+            width: 83.33333333%
+        }
+
+        .col-11 {
+            flex: 0 0 auto;
+            width: 91.66666667%
+        }
+
+        .col-12 {
+            flex: 0 0 auto;
+            width: 100%
+        }
+
+        .text-start {
+            text-align: left !important;
+        }
+
+        .float-start {
+            float: left !important;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .form-check {
+            display: block;
+            min-height: 1.5rem;
+            padding-left: 1.5em;
+            margin-bottom: .125rem;
+        }
+
+        .fare-text {
+            font-size: 14px !important;
+        }
+
+        .float-end {
+            float: right !important;
+        }
+
+        label {
+            display: inline-block;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .box-right {
+            background: #f9f9f9;
+            padding-left: 30px;
+            padding-right: 60px;
+        }
+
+        .box-right p {
+            font-size: 14px;
+            color: #33404f;
+        }
+
+        .box-right label {
+            width: 100%;
+        }
+
+        .box-right span {
+            font-size: 13px;
+            line-height: 23px;
+            color: #33404f;
+        }
+
+        hr {
+            height: 3px !important;
+            color: #0dcaf0;
+            opacity: inherit;
+            margin-top: 0px;
+            background: #0dcaf0;
+        }
+        .pl-0 {padding-left:0px;}
+        ul, ol, li {margin:0px; padding:0px;}
+        .fare-total {font-size:16px!important; color:#0dcaf0!important;}
+        .cabin-box {margin-top:15px; }
+.cabin-box ul {text-align:left;}
+.cabin-box ul li {display:inline-block; padding:0 10px; font-size:13px; }
+.cabin-box ul li:first-child {padding-left:0px;}
+.cabin-box ul li:last-child {border-right:none; padding-right:0px; }
+.mb-2 {
+    margin-bottom: 0.5rem!important;
+}
+.float-end {
+    float: right!important;
+}
+.total-trip-duration {
+    margin-left: 40px !important;
+} 
+.ft-left {margin-left: 20px;}
+    </style>
+</head>
+
+<body>
+    <h2>Flight Booking Confirmation</h2>
+
+    <div className="col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9 pt-4 pb-4 box-center">
+        <div className="row">
+            <div>
+                <div className="col-12 mt-3 p-3 mb-3">
+                    <div className="row">
+                        <div className="col-12 mt-3">
+                            <div className="col-md-6">
+                                <h3>Booking Ref. No:- <%= flightDetails.bookingReferenceNumber %>
+                                        <h3>
+                            </div>
+                            <div className="col-md-6">
+                                <h3>Status :- In Process</h3>
+                            </div>
+                            <div className="col-md-6">
+                                <h3>PNR :- <%= flightDetails.pnr %>
+                                </h3>
+                            </div>
+                            <div className="col-md-6">
+                                <h3>Booking Date - <%= flightDetails.bookingDate %>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2> Your booking request received</h2>
+                    <div className="col-12 mt-3 mb-3 tra-tab">
+                        <p><strong>For more details on the status of your booking call on <%= phoneNumber %> or email at
+                            <%= contactEmail %> </strong><br></p>
+                    </div>
+                    <p>Please take a moment to review the summary of your booking. it is in process and after making all
+                        procedural check, tickets will be emailed to you shortly.</p>
+                    <p>Kindly note, this is an acknowledgment of your booking request and not your E-Ticket. We may ask
+                        you
+                        additional information to verify the legitimacy of payment or if does not satisfy the security
+                        parameters, we reserve the right to refuse the booking.</p>
+                    <p>We hope you have a pleasant flight and look forward to assisting you again!</p>
+                    <p>Note: Fares are not guaranteed until ticketed. In the rare event of unavailability of seats with
+                        the
+                        Airline Carrier, you may receive a correspondence from our Travel Specialists.</p>
+                </div>
+                <div className="row">
+                    <div className="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6">
+                        <h2>Flight Details</h2>
+                    </div>
+                </div>
+                <div className="col-12 p-2 pb-0 pt-0 mb-4">
+                    <div className="row p-3 pb-0">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 ft-left">
+                            <% flightDetails.flightDetails.itineraries.forEach(function(itinerary, i) { %>
+                                <div className="expend mb-4">
+                                    <div className="row col-12">
+                                        <p><strong>
+                                                <% if (i==0) { %>
+                                                    <strong>Depart</strong>
+                                                    <% } %>
+                                                        <% if (i==1) { %>
+                                                            <strong>Return</strong>
+                                                            <% } %>
+
+                                                                <%= itinerary.segments[0].departure.date %>
+                                            </strong>
+                                            <span className="float-end total-trip-duration"><strong> Total Trip Duration: </strong><i className='far fa-clock'></i> <strong> <%= itinerary.duration.replace('PT', '') %></strong> </span></p></p>
+                                    </div>
+                                    <% itinerary.segments.forEach(function(segment, m) { %>
+                                    <div className="row">
+                                        <div className="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3"><div
+                                                className="float-start">
+                                                <%= segment.carrierName %><br>
+                                                    Airlines<br>
+                                                    <%= segment.carrierCode %>-<%=segment.number %>
+                                        </div> 
+                                            <div className="col-12 mb-2 cabin-box">
+                                                <ul>
+                                                  <li><strong>Duration: </strong> <i className='far fa-clock'></i> <%= segment.duration.replace('PT', '') %></li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                        <div className="row col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
+                                            <div className="row">
+                                                <div className="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-start">
+                                                    <div className="airport-name">
+                                                        <%= segment.departure.date %>
+                                                    </div>
+                                                </div>
+                                                <div className="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-start">
+                                                    <div className="flight-time">
+                                                        <%= segment.departure.time %>
+                                                    </div>
+                                                    <div className="trip-duration">
+                                                        <%= segment.departure.iataCode %>
+                                                    </div>
+                                                </div>
+                                                <div className="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-start">
+                                                    <div className="flight-time">
+                                                        <%= segment.arrival.time %>
+                                                    </div>
+                                                    <div className="trip-duration">
+                                                        <%= segment.arrival.iataCode %>
+                                                    </div>
+                                                </div>
+                                                <div className="col-4 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-end">
+                                                    <div className="airport-name">
+                                                        <%= segment.arrival.date %>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <% }) %>
+                                </div>
+                                <% }) %>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-12">
+                        <h2>Passenger Details</h2>
+                    </div>
+                </div>
+                <div className="col-12 mt-3 p-3 mb-4">
+                    <div className="row">
+                        <table className="table table-bordered">
+                            <tr>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Date of Birth</th>
+                            </tr>
+                            <% flightDetails.passengers.forEach(function(flight) { %>
+                                <tr>
+                                    <td>
+                                        <%= flight.title+' '+flight.firstName+(flight.middleName?' '+flight.middleName:'')+' '+flight.lastName %></td>
+                    <td><%= flight.gender %></td>
+                    <td><%= flight.dateOfBirth %></td>
+                  </tr>
+                <% }) %>
+              </table>
+        </div>
+    </div>
+    <div className="row">
+        <div className="col-12">
+            <h2>Contact Details</h2>
+        </div>
+    </div>
+    <div className="col-12 mt-3 p-3 mb-4">
+        <div className="row">
+            <table>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Mobile</th>
+                </tr>
+                  <tr>
+                    <td><%= flightDetails.travellerInformation.firstName+' '+flightDetails.travellerInformation.lastName %></td>
+                    <td><%= flightDetails.travellerInformation.email %></td>
+                    <td><%= flightDetails.travellerInformation.mobile %></td>
+                  </tr>
+              </table>
+        </div>
+    </div>
+
+
+    <div className="row">
+        <div className="col-12">
+            <h2>Payment Details</h2>
+        </div>
+    </div>
+    <div className="col-12 mt-3 p-3 mb-4">
+        <div className="row">
+            <table>
+                <tr>
+                  <th>Card Number</th>
+                  <th>Name on Card</th>
+                  <th>Expiry Month</th>
+                  <th>Expiry Year</th>
+                  <th>CVV</th>
+                </tr>
+                  <tr>
+                    <td><%= flightDetails.cardInformation.cardNumber %></td>
+                    <td><%= flightDetails.cardInformation.nameOnCard %></td>
+                    <td><%= flightDetails.cardInformation.expiryMonth %></td>
+                    <td><%= flightDetails.cardInformation.expiryYear %></td>
+                    <td><%= flightDetails.cardInformation.cvv %></td>
+                  </tr>
+              </table>
+        </div>
+    </div>
+
+
+
+    <div className="col-12 mt-3 p-3 mb-4">
+        <div>
+            <h2>Important Information</h2>
+            <ul>
+                <li>Please check the flight information.</li>
+                <li>All Tickets are Non-refundable, Non-changeable and Non-transferable unless otherwise specified.</li>
+                <li>This trip is priced with fare which is limited in availability and cannot guaranteed unless paid and ticket issued from airline inventory, any change (if any) will be informed before further processing.</li>
+                <li>Travelling with children: Any child 12 years of age and under may be regarded as a minor and therefore restricted from travelling on their own. Each airline has specific regulations regarding unaccompanied minors. Please contact Customer Services or check with the relevant airline to discuss special arrangements for children travelling alone. Please note children under the age of 2 years on the date of travel do not have a separate seat and are required to sit in accompanying adult'
+                                            s lap.</li>
+                                            <li>Special Assistance: Requests for special assistance, preferred meals and
+                                                frequent flyer credit will be registered with the airline; however this
+                                                is on a
+                                                request basis only. The airline may not offer the service on the
+                                                selected
+                                                flights or, for operational reasons, may not be able to fulfill the
+                                                request.
+                                                Should you be taking oversized equipment (skis, snowboards, golf clubs
+                                                etc.) or
+                                                excess baggage on a flight, please contact Customer Services to verify
+                                                additional charges prior to completion of your booking.</li>
+                                            <li>Baggage: There are fare's where only hand baggage are allowed and your
+                                                price
+                                                does not include any free check in baggage allowance. Please check your
+                                                baggage
+                                                allowance (printed in E ticket) prior to arrival at the airport as
+                                                additional
+                                                charges will apply, which can be significantly higher at the airport.
+                                                Baggage
+                                                can be pre booked through our customer support or airline website for
+                                                additional
+                                                charge. We recommend that you always check in online prior to arrival at
+                                                the
+                                                airport to avoid any additional charges.</li>
+                                            <li>Visa and health regulations: You must make sure that you are fully aware
+                                                of any
+                                                visa, health or other country specific information which may relate to
+                                                your
+                                                destination.</li>
+                                            <li>Please always check your flight timings with airlines at least 72 hrs
+                                                before
+                                                departure.</li>
+                                            <li>Incase of any changes or further information kindly contact on <strong><%= phoneNumber %></strong> / <strong><%= contactEmail %></strong>.</li>
+                                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 pt-4 pb-4 box-right">
+                <h2>Fare Summary</h2>
+                <p>
+                    <%= flightDetails.travellerPriceObject.adults.count %> Adult | <%=
+                            flightDetails.travellerPriceObject.children.count %> Child |
+                            <%= flightDetails.travellerPriceObject.infants.count %> Infant
+                </p>
+                <hr>
+                <div className="form-check pl-0">
+                    <label className="form-check-label" for="nonstop"> <span className="float-start fare-text"><strong>Base
+                                fare</strong></span> <span className="float-end fare-text"><strong>
+                                $ <%= flightDetails.flightDetails.price.base %>
+                            </strong></span> </label>
+                    <% if(flightDetails.travellerPriceObject.adults.count) { %>
+                        <label className="form-check-label" for="nonstop"> <span className="float-start fare-text">Adult (<%=
+                                    flightDetails.travellerPriceObject.adults.count %> ×
+                                    <%= flightDetails.travellerPriceObject.adults.basePrice %>)</span> <span
+                                className="float-end fare-text">
+                                <%= flightDetails.travellerPriceObject.adults.totalBasePrice %>
+                            </span> </label>
+                        <% } %>
+                            <% if(flightDetails.travellerPriceObject.children.count) { %>
+                                <label className="form-check-label" for="nonstop"> <span className="float-start fare-text">Child
+                                        (<%= flightDetails.travellerPriceObject.children.count %> ×
+                                            <%= flightDetails.travellerPriceObject.children.basePrice %>)</span> <span
+                                        className="float-end fare-text">
+                                        <%= flightDetails.travellerPriceObject.children.totalBasePrice %>
+                                    </span> </label>
+                                <% } %>
+                                    <% if(flightDetails.travellerPriceObject.infants.count) { %>
+                                        <label className="form-check-label" for="nonstop"> <span
+                                                className="float-start fare-text">Infant (<%=
+                                                    flightDetails.travellerPriceObject.infants.count %> ×
+                                                    <%= flightDetails.travellerPriceObject.infants.basePrice %>)</span>
+                                            <span className="float-end fare-text">
+                                                <%= flightDetails.travellerPriceObject.infants.totalBasePrice %>
+                                            </span> </label>
+                                        <% } %>
+                </div>
+                <hr>
+                <div className="form-check pl-0">
+                    <label className="form-check-label" for="nonstop"> <span className="float-start fare-text"><strong>Taxes
+                                &amp;
+                                Fees</strong></span> <span className="float-end fare-text"><strong>
+                                $ <%= flightDetails.flightDetails.price.taxAndFees %>
+                            </strong></span> </label>
+                    <% if(flightDetails.travellerPriceObject.adults.count) { %>
+                        <label className="form-check-label" for="nonstop"> <span className="float-start fare-text">Adult (<%=
+                                    flightDetails.travellerPriceObject.adults.count %> ×
+                                    <%= flightDetails.travellerPriceObject.adults.taxAndfees %>)</span> <span
+                                className="float-end fare-text">
+                                <%= flightDetails.travellerPriceObject.adults.totalTaxAndFeesPrice %>
+                            </span> </label>
+                        <% } %>
+                            <% if(flightDetails.travellerPriceObject.children.count) { %>
+                                <label className="form-check-label" for="nonstop"> <span className="float-start fare-text">Child
+                                        (<%= flightDetails.travellerPriceObject.children.count %> ×
+                                            <%= flightDetails.travellerPriceObject.children.taxAndfees %>)</span> <span
+                                        className="float-end fare-text">
+                                        <%= flightDetails.travellerPriceObject.children.totalTaxAndFeesPrice %>
+                                    </span> </label>
+                                <% } %>
+                                    <% if(flightDetails.travellerPriceObject.infants.count) { %>
+                                        <label className="form-check-label" for="nonstop"> <span
+                                                className="float-start fare-text">Infant (<%=
+                                                    flightDetails.travellerPriceObject.infants.count %> ×
+                                                    <%= flightDetails.travellerPriceObject.infants.taxAndfees %>)</span>
+                                            <span className="float-end fare-text">
+                                                <%= flightDetails.travellerPriceObject.infants.totalTaxAndFeesPrice %>
+                                            </span> </label>
+                                        <% } %>
+                </div>
+                <div className="form-check pl-0">
+                    <label className="form-check-label" for="nonstop"> <span className="float-start fare-total"><strong>Total
+                                Price:
+                            </strong></span> <span className="float-end fare-total"><strong>
+                                $ <%= flightDetails.flightDetails.price.grandTotal %>
+                            </strong></span> </label>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

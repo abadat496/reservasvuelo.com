@@ -1,0 +1,59 @@
+{
+  "quickLink": "Quick Links",
+  "quickLinks": [
+    {
+      "label": "About Us",
+      "path": "about-us"
+    },
+    {
+      "label": "Terms & Conditions",
+      "path": "terms-conditions"
+    },
+    {
+      "label": "Privacy Policy",
+      "path": "privacy-policy"
+    },
+    {
+      "label": "Contact Us",
+      "path": "contact-us"
+    },
+    {
+      "label": "Refund Policy",
+      "path": "refund-policy"
+    },
+    {
+      "label": "Site Map",
+      "path": "site-map"
+    }
+  ],
+  "topAirlines": [
+    { "label": "Airlines Reservation", "path": "airline-reservation" },
+    { "label": "Reserva De aerolíneas", "path": "reserva-de-aerolíneas" }
+  ],
+  "contactInfo": "Contact Info",
+  "address": "27650 Avenida Terrazo Cathedral City, CA 92234",
+  "roundTrip": "Round Trip",
+  "oneWay": "One Way",
+  "fromAirport": "From Airport",
+  "flyingFrom": "Flying From",
+  "toAirport": "To Airport",
+  "flyingTo": "Flying To",
+  "departureDate": "Departure Date",
+  "returnDate": "Return Date",
+  "addTravelers": "Add Travelers",
+  "economy": "Economy - Adults: {adults} - Children: {children}",
+  "searchFlight": "Search Flight",
+  "TopAirlines": "Top Airlines",
+  "airlin": "Airline Reservations!!",
+  "unpu": "Un-Published Fares",
+  "savecall": "Saved For Our Callers",
+  "Reservations": "Reservations ",
+  "newdata": "New Reservations, Changes, Cancellations & Customer Service",
+  "nodata": "No Hold Time",
+  "callNow": "Call Now",
+  "agent": "Agent Available",
+  "errormsg": "Kindly complete all the required fields.",
+  "Disclaimer": "Disclaimer",
+  "Disclaimer1": "The information displayed on airoticketfare.com is meant for general informational purposes only. All the necessary developments have been needed to ensure that the information displayed on the website is accurate and up to date. That being said, we make no representations or guarantees regarding the accuracy, completeness, or risk of the data displayed on the website, whether expressed or implied.",
+  "Disclaimer2": " Utilizing our network of search partners, flightingdeals searches several travel websites to find the best deals on airline tickets and hotel reservations. We Work Together With Independent Travel Suppliers And Travel Consolidators. There are no direct or indirect connections between us and any airlines. All of the prices that we have indicated include all relevant taxes and fees. The used flight search engine is merely a tool used by a third party for the purpose of providing information; we have no affiliation with any of the businesses featured on it."
+}

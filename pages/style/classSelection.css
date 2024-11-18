@@ -1,0 +1,54 @@
+.class-selection-container {
+  position: relative;
+}
+
+.autocomplete-list {
+  position: absolute;
+  top: calc(100% + 8px);
+  width: 100%;
+  min-width: 200px;
+  z-index: 10000;
+}
+
+.count {
+  width: 20px;
+  text-align: center;
+}
+
+.passenger-label {
+  color: #000;
+}
+
+.autocomple-option {
+  cursor: pointer;
+}
+
+.passenger-controls {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.passenger-controls li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.passenger-controls button {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button {
+  border-radius: 50px;
+  border: 2px solid #d5271c;
+}

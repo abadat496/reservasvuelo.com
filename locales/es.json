@@ -1,0 +1,59 @@
+{
+  "quickLink": "Enlaces Rápidos",
+  "quickLinks": [
+    {
+      "label": "Acerca de Nosotros",
+      "path": "about-us"
+    },
+    {
+      "label": "Términos y Condiciones",
+      "path": "terms-conditions"
+    },
+    {
+      "label": "Política de Privacidad",
+      "path": "privacy-policy"
+    },
+    {
+      "label": "Contáctenos",
+      "path": "contact-us"
+    },
+    {
+      "label": "Política de Reembolso",
+      "path": "refund-policy"
+    },
+    {
+      "label": "Mapa del Sitio",
+      "path": "site-map"
+    }
+  ],
+  "topAirlines": [
+    { "label": "Airlines Reservation", "path": "airline-reservation" },
+    { "label": "Reserva De aerolíneas", "path": "reserva-de-aerolíneas" }
+  ],
+  "contactInfo": "Información de Contacto",
+  "address": "27650 Avenida Terrazo Cathedral City, CA 92234",
+  "roundTrip": "Viaje de Ida y Vuelta",
+  "oneWay": "Solo Ida",
+  "fromAirport": "Desde el Aeropuerto",
+  "flyingFrom": "Volando Desde",
+  "toAirport": "Aeropuerto de Destino",
+  "flyingTo": "Volando A",
+  "departureDate": "Fecha de Salida",
+  "returnDate": "Fecha de Regreso",
+  "addTravelers": "Agregar Viajeros",
+  "economy": "Economía - Adultos: {adults} - Niños: {children}",
+  "searchFlight": "Buscar Vuelo",
+  "TopAirlines": "Principales aerolíneas",
+  "errormsg": "Por favor, complete todos los campos requeridos.",
+  "airlin": "Reservas de aerolíneas!!",
+  "unpu": "Tarifas no publicadas",
+  "savecall": "Guardado para nuestros llamantes",
+  "Reservations": "Reservas",
+  "newdata": "Nuevas reservas, cambios, cancelaciones y servicio al cliente",
+  "nodata": "Sin tiempo de espera",
+  "callNow": "Llame ahora",
+  "agent": "Agente disponible",
+  "Disclaimer": "Descargo de responsabilidad",
+  "Disclaimer1": "vuelomasbarato es un portal de viajes independiente. Su empresa matriz es A   skyflydeals private limited. La información que se muestra en este sitio web, www.vuelomasbarato.com, tiene carácter general. Se han tomado todas las medidas necesarias para garantizar que la información mostrada en el sitio web sea precisa y esté actualizada. ",
+  "Disclaimer2": "Sin embargo, bajo ninguna circunstancia, no ofrecemos ninguna garantía o representación, ya sea implícita o expresa, en lo que respecta a la exactitud, integridad o confiabilidad de la información mostrada en el sitio web. Si necesita que le respondamos alguna consulta, puede escribirnos a"
+}

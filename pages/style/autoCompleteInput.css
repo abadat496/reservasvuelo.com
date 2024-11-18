@@ -1,0 +1,45 @@
+/* pages/components/ui/autoCompleteInput.module.css */
+.autocomplete-form {
+  position: relative;
+}
+
+.autocomplete-list {
+  position: absolute;
+  z-index: 10000;
+  overflow-y: auto;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 0px;
+  width: fit-content !important;
+  max-height: 250px;
+}
+
+.autocomple-option {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.autocomplete-list.list-group {
+  border: 0px !important;
+}
+
+.autocomple-option .btn {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.autocomple-option strong {
+  font-size: 14px;
+}
+
+.autocomple-option small {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.autocomple-option .mx-2 {
+  flex-grow: 1;
+}
