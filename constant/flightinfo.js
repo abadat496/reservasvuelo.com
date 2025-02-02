@@ -122,7 +122,6 @@ export const airlinesDetails = {
       },
     ],
   },
-
   "united-airlines": {
     title: "United Airlines",
     description:
