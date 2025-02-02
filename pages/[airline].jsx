@@ -25,7 +25,7 @@ const DynamicPage = () => {
       </Head>
       <SearchForm
         airlineDetail={airlineDetail}
-        backGroundImage={`/domestic-img.jpg`}
+        backGroundImage={`/slider.jpg`}
         title={airlineDetail?.title}
       />
       <div className="container">
