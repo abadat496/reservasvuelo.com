@@ -14,6 +14,14 @@
       "path": "privacy-policy"
     },
     {
+      "label": "Descargo de responsabilidad",
+      "path": "disclaimer"
+    },
+    {
+      "label": "Política de cookies",
+      "path": "cookies-policy"
+    },
+    {
       "label": "Contáctenos",
       "path": "contact-us"
     },

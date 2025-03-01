@@ -13,15 +13,13 @@ const Contact = () => {
     phone: "",
     subject: "",
     message: "",
-
-    
   });
 
   const [isaccep, setIsaccept] = useState(false);
   const [isVerified, setIsVerified] = useState(false);
   const handleVerify = (response) => {
-    setIsVerified(true); 
-};
+    setIsVerified(true);
+  };
 
   const handleChange = (e) => {
     setMessage("");
@@ -34,7 +32,7 @@ const Contact = () => {
 
   const handlecheckbox = (e) => {
     const { checked } = e.target;
-    setIsaccept(checked)
+    setIsaccept(checked);
   };
 
   const handleSubmit = async (e) => {
@@ -44,8 +42,6 @@ const Contact = () => {
       setIsError(true);
       return;
     }
-
-  
 
     if (
       !formData.email.trim() ||
@@ -86,25 +82,25 @@ const Contact = () => {
 
   return (
     <>
-      <Head> 
+      <Head>
         <title>{"Contacta con nosotras"}</title>
       </Head>
       <Breadcrumb title={"Contacta con nosotras"} />
       <div className="container-xl inner-page">
-        <div className="col-sm-12">  
-          
-         
+        <div className="col-sm-12">
           <div className="row mt-4">
-
-          <div className="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12 cont-right">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12 cont-right">
               <ul>
                 <li>
                   <div className="cont-icon">
-                  <i className="fa fa-map-marker" aria-hidden="true"></i>
+                    <i className="fa fa-map-marker" aria-hidden="true"></i>
                   </div>
                   <div className="cont-text">
                     <h6>Ubicación de la compañía</h6>
-                     <p>30 N Gould St STE ST R, Sheridan, WY 82801, United States</p>
+                    <p>
+                      HIMANSHU PURI SOLE MBR 48221 NOTTINGHILL LN CANTON, MI
+                      48188
+                    </p>
                   </div>
                 </li>
                 <li>
@@ -132,7 +128,7 @@ const Contact = () => {
               </ul>
             </div>
 
-          <div className="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12 cont-left mb-5">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12 cont-left mb-5">
               <h5>Contacta con nosotras</h5>
               <form className="row g-3 mt-3" onSubmit={handleSubmit}>
                 <div className="col-md-3">
@@ -186,12 +182,25 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="col-md-12">
-                <input type="checkbox" onChange={handlecheckbox} /> 
-                <span> You agree to receive automated Transaction messages . Terms and Privacy Policy can be found at <a href="https://act-on.com/wp-content/uploads/2023/11/Act-On_Privacy_Policy_NOV2023.pdf">act-on.com/privacy-policy/</a>. You may receive up to 5 msg/mo. Txt and data rates may apply . Reply STOP to end or HELP fo help.</span>
+                  <input type="checkbox" onChange={handlecheckbox} />
+                  <span>
+                    {" "}
+                    You agree to receive automated Transaction messages . Terms
+                    and Privacy Policy can be found at{" "}
+                    <a href="https://act-on.com/wp-content/uploads/2023/11/Act-On_Privacy_Policy_NOV2023.pdf">
+                      act-on.com/privacy-policy/
+                    </a>
+                    . You may receive up to 5 msg/mo. Txt and data rates may
+                    apply . Reply STOP to end or HELP fo help.
+                  </span>
                 </div>
                 <div className="col-12">
-                  <button type="submit" className="btn btn-primary" disabled={!isaccep}>
-                  Entregar
+                  <button
+                    type="submit"
+                    className="btn btn-primary"
+                    disabled={!isaccep}
+                  >
+                    Entregar
                   </button>
                 </div>
                 <div
@@ -201,19 +210,11 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-
-            
-          
-
-            
           </div>
         </div>
       </div>
 
       {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.167704831204!2d-106.95752532392379!3d44.79777077107087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a655555%3A0x3265c73ab4e065e!2s30%20N%20Gould%20St%20STE%20ST%20R%2C%20Sheridan%2C%20WY%2082801%2C%20USA!5e0!3m2!1sen!2sin!4v1707224815874!5m2!1sen!2sin" style={{width:'100%', height:'400px'}}></iframe> */}
-
-
-
     </>
   );
 };

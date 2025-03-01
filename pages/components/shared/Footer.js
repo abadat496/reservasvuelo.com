@@ -38,8 +38,8 @@ const Footer = ({ langData }) => {
                 </li>
                 <li>
                   <a href="">
-                    <i class="fa-solid fa-location-dot"></i> 30 N Gould St STE
-                    ST R, Sheridan, WY 82801, United States
+                    <i class="fa-solid fa-location-dot"></i> HIMANSHU PURI SOLE
+                    MBR 48221 NOTTINGHILL LN CANTON, MI 48188
                   </a>
                 </li>
               </ul>
@@ -62,7 +62,7 @@ const Footer = ({ langData }) => {
               </p>
             </div>
 
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-12">
               <div className="payment_icon">
                 <ul>
                   <li>
@@ -129,6 +129,16 @@ const Footer = ({ langData }) => {
                       height={30}
                     />
                   </li>
+                  <li>
+                    <LazyImage
+                      src="/iata.png"
+                      className="img-fluid"
+                      alt=""
+                      imageSizes={32}
+                      width={50}
+                      height={30}
+                    />
+                  </li>
                 </ul>
               </div>
             </div>
@@ -155,7 +165,8 @@ const Footer = ({ langData }) => {
             <div className="col-12 col-lg-12">
               <p>
                 Derechos de autor &copy; 2025 reservasvuelo.com. Reservados
-                todos los derechos.
+                todos los derechos. (Empresa matriz : ALTITUDEWINGS LLC | EIN -
+                33-2247840 )
               </p>
             </div>
           </div>
