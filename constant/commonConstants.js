@@ -3,6 +3,8 @@ export const quickLinks = [
   { label: "Sobre Nosotras", path: "about-us" },
   { label: "Términos y condiciones", path: "terms-conditions" },
   { label: "Política de privacidad", path: "privacy-policy" },
+  { label: "Política de cookies", path: "cookies-policy" },
+  { label: "Descargo de responsabilidad", path: "disclaimer" },
   { label: "Contacta con nosotras", path: "contact-us" },
   { label: "Politica de reembolso", path: "refund-policy" },
   { label: "Mapa del sitio", path: "site-map" },
@@ -47,6 +49,5 @@ export const topDestinations = [
   { label: "Fort Lauderdale", path: "fort-lauderdale" },
   { label: "Washington DC", path: "washington-dc" },
 ];
-
 
 export const apiUrl = "api/";
