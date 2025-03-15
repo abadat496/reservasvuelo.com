@@ -239,18 +239,18 @@ const Home = () => {
             <div className="col-sm-12">
               <h2 className="mb-4">Sobre Nosotros</h2>
               <p>
-                0fertasdevuelos.com ofrece una solución completa para reservar
-                viajes en línea a destinos mundialmente conocidos. Calculará las
+                viajexico.com ofrece una solución completa para reservar viajes
+                en línea a destinos mundialmente conocidos. Calculará las
                 tarifas locales más convenientes para que todas las empresas de
                 transporte recojan los datos más recientes sobre precauciones y
                 admisión aérea por teléfono. Nuestro objetivo es brindarle los
                 mejores cursos de acción de viaje al mejor precio. Debido a
                 nuestra amplia organización de operadores, querrá reservar sus
                 viajes de recreación. Para brindarle la mejor valoración de
-                viajes abiertos en línea, el profesorado de 0fertasdevuelos.com
-                está siempre dispuesto an ayudarlo y guiarlo a través del
-                proceso de compra de boletos. Suponiendo que utilice nuestras
-                increíbles oficinas y ayuda, llegará a tiempo.
+                viajes abiertos en línea, el profesorado de viajexico.com está
+                siempre dispuesto an ayudarlo y guiarlo a través del proceso de
+                compra de boletos. Suponiendo que utilice nuestras increíbles
+                oficinas y ayuda, llegará a tiempo.
                 <br></br>
                 <br></br>
                 Nuestro objetivo es brindarles la mejor información de viaje
@@ -261,13 +261,13 @@ const Home = () => {
                 compañías para que tenga tarifas de vuelo reales para cambiar de
                 rumbo y horarios, así como para saber con certeza cuando
                 planifique su excursión. Desde nuestra perspectiva,
-                0fertasdevuelos.com ofrece las ventajas más adaptables y
-                funcionales. Friends Fly es una reunión excepcionalmente feliz
-                de especialistas que trabajan las 24 horas del día, los 7 días
-                de la semana para brindarle lo mejor y la ayuda dinamita al
-                menor costo posible. Nuestros expertos te ayudarán an ajustar
-                tus gastos, cancelar futuros créditos y descuentos en función de
-                sus necesidades de salida.
+                viajexico.com ofrece las ventajas más adaptables y funcionales.
+                Friends Fly es una reunión excepcionalmente feliz de
+                especialistas que trabajan las 24 horas del día, los 7 días de
+                la semana para brindarle lo mejor y la ayuda dinamita al menor
+                costo posible. Nuestros expertos te ayudarán an ajustar tus
+                gastos, cancelar futuros créditos y descuentos en función de sus
+                necesidades de salida.
               </p>
             </div>
           </div>

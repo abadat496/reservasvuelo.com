@@ -31,9 +31,9 @@ const Footer = ({ langData }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:info@0fertasdevuelos.com">
+                  <a href="mailto:info@viajexico.com">
                     <i className="fa-regular fa-envelope"></i>{" "}
-                    info@0fertasdevuelos.com
+                    info@viajexico.com
                   </a>
                 </li>
                 <li>
@@ -48,17 +48,17 @@ const Footer = ({ langData }) => {
             <div className="col-12 col-sm-12 col-lg-12 col-xl-12 mt-4 top-margin">
               <h6>{langData?.Disclaimer} :</h6>
               <p>
-                0fertasdevuelos.com es un agregador de billetes de avión y
-                conecta a viajeros y proveedores. Esto asegura que no tengamos
-                elementos distintivos y que hagamos las reservas de viajes de
-                forma más sencilla. Lo ayudaremos y lo educaremos en el proceso
-                con respecto a encontrar los mejores arreglos para su visita,
-                sin embargo, en caso de que haya un defecto en las
-                administraciones ofrecidas por el proveedor de soporte, no se
-                espera que asumamos la responsabilidad. No corremos el riesgo de
-                ninguna tergiversación, error, engaño o exención hecha a ninguna
-                de las páginas web o enlaces a diferentes sitios accesibles en
-                0fertasdevuelos.com.
+                viajexico.com es un agregador de billetes de avión y conecta a
+                viajeros y proveedores. Esto asegura que no tengamos elementos
+                distintivos y que hagamos las reservas de viajes de forma más
+                sencilla. Lo ayudaremos y lo educaremos en el proceso con
+                respecto a encontrar los mejores arreglos para su visita, sin
+                embargo, en caso de que haya un defecto en las administraciones
+                ofrecidas por el proveedor de soporte, no se espera que asumamos
+                la responsabilidad. No corremos el riesgo de ninguna
+                tergiversación, error, engaño o exención hecha a ninguna de las
+                páginas web o enlaces a diferentes sitios accesibles en
+                viajexico.com.
               </p>
             </div>
 
@@ -164,8 +164,8 @@ const Footer = ({ langData }) => {
           <div className="row">
             <div className="col-12 col-lg-12">
               <p>
-                Derechos de autor &copy; 2025 0fertasdevuelos.com. Reservados
-                todos los derechos. (Empresa matriz : ALTITUDEWINGS LLC | EIN -
+                Derechos de autor &copy; 2025 viajexico.com. Reservados todos
+                los derechos. (Empresa matriz : ALTITUDEWINGS LLC | EIN -
                 33-2247840 )
               </p>
             </div>

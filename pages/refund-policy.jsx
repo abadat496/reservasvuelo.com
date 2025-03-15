@@ -112,18 +112,17 @@ const Refund = () => {
                   </li>
                 </ul>
 
-                <h4>0fertasdevuelos.com de Servicio Posterior a la Emisión:</h4>
+                <h4>viajexico.com de Servicio Posterior a la Emisión:</h4>
                 <ul>
                   <li>
-                    Además de las 0fertasdevuelos.com de reembolso de
-                    proveedores, Explore Nut Travels puede cobrar
-                    0fertasdevuelos.com por servicio posterior a la emisión del
-                    boleto, solo aplicables si el proveedor autoriza un
-                    reembolso o concede una exención.
+                    Además de las viajexico.com de reembolso de proveedores,
+                    Explore Nut Travels puede cobrar viajexico.com por servicio
+                    posterior a la emisión del boleto, solo aplicables si el
+                    proveedor autoriza un reembolso o concede una exención.
                   </li>
                   <li>
-                    No se aplican a las 0fertasdevuelos.com originales de
-                    registro o reserva.
+                    No se aplican a las viajexico.com originales de registro o
+                    reserva.
                   </li>
                 </ul>
 

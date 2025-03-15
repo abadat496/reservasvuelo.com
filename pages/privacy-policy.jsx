@@ -16,26 +16,26 @@ const Privacy = () => {
           <div className="row mt-4">
             <div className="col-12">
               <section>
-                <h4>Estrategia de Protección para 0fertasdevuelos.com</h4>
+                <h4>Estrategia de Protección para viajexico.com</h4>
                 <p>
-                  Esta articulación de seguridad enmarca cómo0fertasdevuelos.com
+                  Esta articulación de seguridad enmarca cómoviajexico.com
                   obtiene sus datos confidenciales de nuestro sitio, cómo
                   protegemos esos datos y las decisiones que tiene sobre el uso
-                  y el intercambio de dicha información. 0fertasdevuelos.com
-                  valora tu protección. Si no es demasiado problema, lea
-                  atentamente el enfoque a continuación.Una de nuestras
-                  necesidades más elevadas en 0fertasdevuelos.com es tener un
-                  entorno de compra privado y seguro. En el momento en que
-                  visita nuestro sitio, creemos que debe tener una buena
-                  sensación de seguridad y tranquilidad como realmente se puede
-                  esperar. Estamos comprometidos a proteger la seguridad de las
-                  personas que visitan y buscan en nuestro sitio. Si no es
-                  demasiado problema, recuerde que esta articulación de
-                  seguridad solo se extiende a los datos recopilados por nuestro
-                  sitio. No somos responsables de la seguridad de los datos que
-                  envíe o desee distribuir en ningún espacio abierto, ni somos
-                  responsables de los enfoques de seguridad de los sitios
-                  administrados o poseídos por personas ajenas.
+                  y el intercambio de dicha información. viajexico.com valora tu
+                  protección. Si no es demasiado problema, lea atentamente el
+                  enfoque a continuación.Una de nuestras necesidades más
+                  elevadas en viajexico.com es tener un entorno de compra
+                  privado y seguro. En el momento en que visita nuestro sitio,
+                  creemos que debe tener una buena sensación de seguridad y
+                  tranquilidad como realmente se puede esperar. Estamos
+                  comprometidos a proteger la seguridad de las personas que
+                  visitan y buscan en nuestro sitio. Si no es demasiado
+                  problema, recuerde que esta articulación de seguridad solo se
+                  extiende a los datos recopilados por nuestro sitio. No somos
+                  responsables de la seguridad de los datos que envíe o desee
+                  distribuir en ningún espacio abierto, ni somos responsables de
+                  los enfoques de seguridad de los sitios administrados o
+                  poseídos por personas ajenas.
                 </p>
               </section>
 
@@ -58,24 +58,23 @@ const Privacy = () => {
               <section>
                 <h4>Manejo de datos realmente reconocibles</h4>
                 <p>
-                  0fertasdevuelos.com valora su protección y nunca descubrirá
-                  sus datos reconocibles abiertamente sin su consentimiento.En
-                  caso de que elija una de las capacidades mencionadas a
+                  viajexico.com valora su protección y nunca descubrirá sus
+                  datos reconocibles abiertamente sin su consentimiento.En caso
+                  de que elija una de las capacidades mencionadas a
                   continuación, su PII se utilizará de la siguiente manera:
-                  hasta que nos dé su consentimiento, 0fertasdevuelos.comno
-                  venderá, compartirá, autorizará, comercializará ni arrendará
-                  sus datos realmente reconocibles además de lo determinado en
-                  este plan de seguridad. No se espera que nos proporcione
-                  ningún dato realmente reconocible para visitar o examinar
-                  nuestro sitio. No obstante, en el caso de que decida no
-                  incorporar los datos mencionados, no podrá acceder ni
-                  visualizar todas las partes de nuestro sitio. correo
-                  electrónico y otras comunicaciones deliberadas: también puede
-                  asociarse con 0fertasdevuelos.com por correo electrónico,
-                  nuestro sitio, teléfono celular, registrado como una copia
-                  impresa o por otros medios. Recopilamos todos los datos
-                  contenidos en estos mensajes, y dado que dichos datos pueden
-                  ser realmente reconocibles.
+                  hasta que nos dé su consentimiento, viajexico.comno venderá,
+                  compartirá, autorizará, comercializará ni arrendará sus datos
+                  realmente reconocibles además de lo determinado en este plan
+                  de seguridad. No se espera que nos proporcione ningún dato
+                  realmente reconocible para visitar o examinar nuestro sitio.
+                  No obstante, en el caso de que decida no incorporar los datos
+                  mencionados, no podrá acceder ni visualizar todas las partes
+                  de nuestro sitio. correo electrónico y otras comunicaciones
+                  deliberadas: también puede asociarse con viajexico.com por
+                  correo electrónico, nuestro sitio, teléfono celular,
+                  registrado como una copia impresa o por otros medios.
+                  Recopilamos todos los datos contenidos en estos mensajes, y
+                  dado que dichos datos pueden ser realmente reconocibles.
                 </p>
               </section>
 
