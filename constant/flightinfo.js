@@ -210,40 +210,40 @@ export const airlinesDetails = {
     title: "Frontier Airlines",
     sections: [
       {
-        title: "Bienvenido a reservasvuelo",
+        title: "Bienvenido a 0fertasdevuelos",
         description:
-          "Bienvenido a reservasvuelo, tu agencia de viajes en línea (OTA) de confianza con sede en los EE. UU. Nos especializamos en proporcionar servicios de reserva de vuelos sin complicaciones para una de las aerolíneas líderes en la región, Frontier Airlines. Ya sea que estés planeando un viaje de negocios o unas merecidas vacaciones, estamos aquí para ayudarte a encontrar las mejores tarifas de vuelo y garantizar una experiencia de viaje sin estrés.",
+          "Bienvenido a 0fertasdevuelos, tu agencia de viajes en línea (OTA) de confianza con sede en los EE. UU. Nos especializamos en proporcionar servicios de reserva de vuelos sin complicaciones para una de las aerolíneas líderes en la región, Frontier Airlines. Ya sea que estés planeando un viaje de negocios o unas merecidas vacaciones, estamos aquí para ayudarte a encontrar las mejores tarifas de vuelo y garantizar una experiencia de viaje sin estrés.",
       },
       {
         title: "Sobre Frontier Airlines",
         description:
-          "Frontier Airlines es reconocida por su extensa red de destinos nacionales e internacionales, ofreciendo una amplia gama de opciones a precios competitivos. Como socio autorizado de Frontier Airlines, reservasvuelo te brinda acceso exclusivo a sus vuelos, permitiéndote explorar destinos emocionantes mientras ahorras en tus gastos de viaje.",
+          "Frontier Airlines es reconocida por su extensa red de destinos nacionales e internacionales, ofreciendo una amplia gama de opciones a precios competitivos. Como socio autorizado de Frontier Airlines, 0fertasdevuelos te brinda acceso exclusivo a sus vuelos, permitiéndote explorar destinos emocionantes mientras ahorras en tus gastos de viaje.",
       },
       {
         title: "Proceso de Reserva Fácil",
         description:
-          "Reservar un vuelo a través de reservasvuelo es muy sencillo. Nuestra página web y aplicación móvil fáciles de usar te ofrecen una experiencia de reserva sin complicaciones. Simplemente ingresa los detalles de tu viaje, incluyendo las ciudades de salida y llegada, fechas preferidas y número de pasajeros, y nuestro avanzado motor de búsqueda mostrará instantáneamente una lista de vuelos disponibles.",
+          "Reservar un vuelo a través de 0fertasdevuelos es muy sencillo. Nuestra página web y aplicación móvil fáciles de usar te ofrecen una experiencia de reserva sin complicaciones. Simplemente ingresa los detalles de tu viaje, incluyendo las ciudades de salida y llegada, fechas preferidas y número de pasajeros, y nuestro avanzado motor de búsqueda mostrará instantáneamente una lista de vuelos disponibles.",
       },
       {
         title: "Equipo Dedicado de Expertos en Viajes",
         description:
-          "Nuestro equipo de expertos en viajes trabaja incansablemente para seleccionar las mejores opciones de vuelos para ti. Nos enorgullece ofrecer una amplia gama de tarifas aéreas, desde opciones económicas hasta boletos de clase premium, asegurándonos de que encuentres un vuelo que se adapte a tus preferencias y presupuesto. Con reservasvuelo, puedes comparar fácilmente diferentes opciones de vuelos, incluyendo horarios de salida, escalas y precios, para tomar una decisión informada.",
+          "Nuestro equipo de expertos en viajes trabaja incansablemente para seleccionar las mejores opciones de vuelos para ti. Nos enorgullece ofrecer una amplia gama de tarifas aéreas, desde opciones económicas hasta boletos de clase premium, asegurándonos de que encuentres un vuelo que se adapte a tus preferencias y presupuesto. Con 0fertasdevuelos, puedes comparar fácilmente diferentes opciones de vuelos, incluyendo horarios de salida, escalas y precios, para tomar una decisión informada.",
       },
       {
         title: "Opciones de Viaje Flexibles",
         description:
-          "En reservasvuelo, entendemos que la flexibilidad es crucial al planificar un viaje. Por eso, ofrecemos varias opciones de tarifas, incluyendo boletos reembolsables y no reembolsables, además de la posibilidad de modificar tu reserva si es necesario. Nuestro equipo de atención al cliente está disponible 24/7 para ayudarte con cualquier consulta o cambio que necesites en tu reserva con Frontier Airlines.",
+          "En 0fertasdevuelos, entendemos que la flexibilidad es crucial al planificar un viaje. Por eso, ofrecemos varias opciones de tarifas, incluyendo boletos reembolsables y no reembolsables, además de la posibilidad de modificar tu reserva si es necesario. Nuestro equipo de atención al cliente está disponible 24/7 para ayudarte con cualquier consulta o cambio que necesites en tu reserva con Frontier Airlines.",
       },
       {
         title: "Servicios Adicionales",
         description:
-          "Como cliente valioso, también ofrecemos servicios adicionales para mejorar tu experiencia de viaje. Estos incluyen reservas de hotel, alquiler de autos, seguro de viaje y más. Con reservasvuelo, puedes planificar todo tu viaje en un solo lugar, ahorrando tiempo y esfuerzo.",
+          "Como cliente valioso, también ofrecemos servicios adicionales para mejorar tu experiencia de viaje. Estos incluyen reservas de hotel, alquiler de autos, seguro de viaje y más. Con 0fertasdevuelos, puedes planificar todo tu viaje en un solo lugar, ahorrando tiempo y esfuerzo.",
       },
       {
         title:
-          "¿Por Qué Elegir reservasvuelo para Reservar Vuelos con Frontier Airlines?",
+          "¿Por Qué Elegir 0fertasdevuelos para Reservar Vuelos con Frontier Airlines?",
         description:
-          "Al elegir reservasvuelo para reservar tus vuelos con Frontier Airlines, puedes esperar:\n\n- **Precios Competitivos**: Nos esforzamos por ofrecer las mejores tarifas de vuelo, asegurando que obtengas el máximo valor por tu dinero.\n- **Red Extensa**: La amplia red de Frontier Airlines te permite explorar una gran variedad de destinos dentro de los EE. UU. y más allá.\n- **Proceso de Reserva Sencillo**: Nuestra plataforma intuitiva facilita la búsqueda, comparación y reserva de vuelos, ahorrándote tiempo y esfuerzo.\n- **Atención Dedicada**: Nuestro amable equipo de atención al cliente está disponible las 24 horas del día para ayudarte con cualquier consulta o inquietud relacionada con tu viaje.\n- **Servicios Adicionales**: Aprovecha nuestra completa gama de servicios de viaje, incluyendo reservas de hotel, alquiler de autos y seguro de viaje.\n\nExperimenta la comodidad y asequibilidad de reservar tus vuelos con Frontier Airlines a través de reservasvuelo. Confía en nosotros para ofrecerte una experiencia de viaje sin complicaciones, ayudándote a llegar a tu destino con facilidad. Comienza a planificar tu próxima aventura hoy mismo y deja que reservasvuelo se encargue de todas tus necesidades de viaje.",
+          "Al elegir 0fertasdevuelos para reservar tus vuelos con Frontier Airlines, puedes esperar:\n\n- **Precios Competitivos**: Nos esforzamos por ofrecer las mejores tarifas de vuelo, asegurando que obtengas el máximo valor por tu dinero.\n- **Red Extensa**: La amplia red de Frontier Airlines te permite explorar una gran variedad de destinos dentro de los EE. UU. y más allá.\n- **Proceso de Reserva Sencillo**: Nuestra plataforma intuitiva facilita la búsqueda, comparación y reserva de vuelos, ahorrándote tiempo y esfuerzo.\n- **Atención Dedicada**: Nuestro amable equipo de atención al cliente está disponible las 24 horas del día para ayudarte con cualquier consulta o inquietud relacionada con tu viaje.\n- **Servicios Adicionales**: Aprovecha nuestra completa gama de servicios de viaje, incluyendo reservas de hotel, alquiler de autos y seguro de viaje.\n\nExperimenta la comodidad y asequibilidad de reservar tus vuelos con Frontier Airlines a través de 0fertasdevuelos. Confía en nosotros para ofrecerte una experiencia de viaje sin complicaciones, ayudándote a llegar a tu destino con facilidad. Comienza a planificar tu próxima aventura hoy mismo y deja que 0fertasdevuelos se encargue de todas tus necesidades de viaje.",
       },
     ],
   },
