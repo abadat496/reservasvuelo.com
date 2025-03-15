@@ -15,16 +15,16 @@ const Term = () => {
 
           <div className="row mt-4">
             <div className="col-12">
-              <p>Bienvenido a reservasvuelo.com</p>
+              <p>Bienvenido a 0fertasdevuelos.com</p>
               <p>
                 Los Términos y Condiciones deben ser conforme a las normas y
                 directrices que administran la utilización de la
-                reservasvuelo.com sitio, que se puede encontrar
-                reservasvuelo.com
+                0fertasdevuelos.com sitio, que se puede encontrar
+                0fertasdevuelos.com
               </p>
               <p>
                 Asumimos que al visitar esta publicación, usted acepta estos
-                términos. Sigue utilizando reservasvuelo.comsiempre que cumpla
+                términos. Sigue utilizando 0fertasdevuelos.comsiempre que cumpla
                 con cualquiera de los términos y condiciones mencionados en esta
                 página.
               </p>
@@ -61,8 +61,8 @@ const Term = () => {
               </h4>
               <p>
                 We want to include the use of both cookies. Al unirse con
-                reservasvuelo.com, optó para integrar cookies de acuerdo con la
-                estrategia de protección del grupo.
+                0fertasdevuelos.com, optó para integrar cookies de acuerdo con
+                la estrategia de protección del grupo.
                 <br></br>
                 Cookies are used by many internet-based organizations to gather
                 customer data for each meeting. On our website, cookies are used
@@ -74,31 +74,31 @@ const Term = () => {
                 <strong>Permiso</strong>
               </h4>
               <p>
-                Excepto si se expresa en general, reservasvuelo.comy, además,
+                Excepto si se expresa en general, 0fertasdevuelos.comy, además,
                 sus licenciantes tienen Derechos de innovación protegidos sobre
-                todo el material en reservasvuelo.com. Se guardarán todos los
+                todo el material en 0fertasdevuelos.com. Se guardarán todos los
                 privilegios de innovación protegidos. Puedes adquirir esto de
-                reservasvuelo.comno importa cuál sea su propio uso, siempre y
+                0fertasdevuelos.comno importa cuál sea su propio uso, siempre y
                 cuando cumpla con las pautas enmarcadas en estos términos y
                 condiciones.<br></br>
                 No se le permite:
               </p>
 
               <h4>
-                <strong>Distribuir contenido en reservasvuelo.com</strong>
+                <strong>Distribuir contenido en 0fertasdevuelos.com</strong>
               </h4>
               <p>
-                Los materiales de reservasvuelo.com se pueden comprar, alquilar
-                o sublicenciar. Los materiales de reservasvuelo.com se pueden
-                reproducir, repetir o copiar. Amablemente reorganizar los
-                materiales para nosotros. Partes de este sitio permiten a los
-                clientes publicar e impartir conocimientos e información sobre
-                partes específicas del sitio. reservasvuelo.com no canaliza,
-                modifica, redacta ni comprueba los comentarios hasta que se
-                distribuyen en el sitio. Los comentarios no reflejan las
+                Los materiales de 0fertasdevuelos.com se pueden comprar,
+                alquilar o sublicenciar. Los materiales de 0fertasdevuelos.com
+                se pueden reproducir, repetir o copiar. Amablemente reorganizar
+                los materiales para nosotros. Partes de este sitio permiten a
+                los clientes publicar e impartir conocimientos e información
+                sobre partes específicas del sitio. 0fertasdevuelos.com no
+                canaliza, modifica, redacta ni comprueba los comentarios hasta
+                que se distribuyen en el sitio. Los comentarios no reflejan las
                 perspectivas de nuestros representantes o asociados. Los
                 comentarios abordan perpetuamente las perspectivas del individuo
-                comunicando sus perspectivas y suposiciones. reservasvuelo.com
+                comunicando sus perspectivas y suposiciones. 0fertasdevuelos.com
                 no será responsable de ningún comentario o responsabilidad,
                 infortunio o costo causado o respaldado por la utilización y
                 distribución adicional o el alojamiento potencial de comentarios
@@ -118,7 +118,7 @@ const Term = () => {
                 publicaciones no deben utilizarse para solicitar o promover una
                 empresa, una costumbre, un negocio o una actividad no ética.
                 <br></br>
-                Otorga a reservasvuelo.com un permiso no élite para usar,
+                Otorga a 0fertasdevuelos.com un permiso no élite para usar,
                 repetir, cambiar y aprobar a otros para usar, copiar y revisar
                 cada uno de sus comentarios en cualquier medio, reunión o web.
               </p>
@@ -164,8 +164,8 @@ const Term = () => {
                 sitio que está asociado con él parece estar bien dentro del
                 significado y el estilo del material en el sitio de la reunión
                 de la asociación. No se permitirá el uso del logotipo de
-                reservasvuelo.com u otra obra de arte para conectarse a un plan
-                de juego de permiso de marca que no esté activo.
+                0fertasdevuelos.com u otra obra de arte para conectarse a un
+                plan de juego de permiso de marca que no esté activo.
               </p>
 
               <h4>

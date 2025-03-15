@@ -63,16 +63,16 @@ const About = () => {
           <h2>Sobre Nosotras</h2>
           <hr />
           <p>
-            reservasvuelo.com ofrece una solución completa para reservar viajes
-            en línea a destinos mundialmente conocidos. Calculará las tarifas
-            locales más convenientes para que todas las empresas de transporte
-            recojan los datos más recientes sobre precauciones y admisión aérea
-            por teléfono. Nuestro objetivo es brindarle los mejores cursos de
-            acción de viaje al mejor precio. Debido a nuestra amplia
-            organización de operadores, querrá reservar sus viajes de
+            0fertasdevuelos.com ofrece una solución completa para reservar
+            viajes en línea a destinos mundialmente conocidos. Calculará las
+            tarifas locales más convenientes para que todas las empresas de
+            transporte recojan los datos más recientes sobre precauciones y
+            admisión aérea por teléfono. Nuestro objetivo es brindarle los
+            mejores cursos de acción de viaje al mejor precio. Debido a nuestra
+            amplia organización de operadores, querrá reservar sus viajes de
             recreación. Para brindarle la mejor valoración de viajes abiertos en
-            línea, el profesorado de reservasvuelo.com está siempre dispuesto an
-            ayudarlo y guiarlo a través del proceso de compra de boletos.
+            línea, el profesorado de 0fertasdevuelos.com está siempre dispuesto
+            an ayudarlo y guiarlo a través del proceso de compra de boletos.
             Suponiendo que utilice nuestras increíbles oficinas y ayuda, llegará
             a tiempo.
             <br></br>
@@ -84,7 +84,7 @@ const About = () => {
             inéditos. Nuestro deber es conectarlo an una variedad de compañías
             para que tenga tarifas de vuelo reales para cambiar de rumbo y
             horarios, así como para saber con certeza cuando planifique su
-            excursión. Desde nuestra perspectiva, reservasvuelo.com ofrece las
+            excursión. Desde nuestra perspectiva, 0fertasdevuelos.com ofrece las
             ventajas más adaptables y funcionales. Friends Fly es una reunión
             excepcionalmente feliz de especialistas que trabajan las 24 horas
             del día, los 7 días de la semana para brindarle lo mejor y la ayuda

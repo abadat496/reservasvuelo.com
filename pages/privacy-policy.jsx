@@ -16,15 +16,15 @@ const Privacy = () => {
           <div className="row mt-4">
             <div className="col-12">
               <section>
-                <h4>Estrategia de Protección para reservasvuelo.com</h4>
+                <h4>Estrategia de Protección para 0fertasdevuelos.com</h4>
                 <p>
-                  Esta articulación de seguridad enmarca cómoreservasvuelo.com
+                  Esta articulación de seguridad enmarca cómo0fertasdevuelos.com
                   obtiene sus datos confidenciales de nuestro sitio, cómo
                   protegemos esos datos y las decisiones que tiene sobre el uso
-                  y el intercambio de dicha información. reservasvuelo.com
+                  y el intercambio de dicha información. 0fertasdevuelos.com
                   valora tu protección. Si no es demasiado problema, lea
                   atentamente el enfoque a continuación.Una de nuestras
-                  necesidades más elevadas en reservasvuelo.com es tener un
+                  necesidades más elevadas en 0fertasdevuelos.com es tener un
                   entorno de compra privado y seguro. En el momento en que
                   visita nuestro sitio, creemos que debe tener una buena
                   sensación de seguridad y tranquilidad como realmente se puede
@@ -58,11 +58,11 @@ const Privacy = () => {
               <section>
                 <h4>Manejo de datos realmente reconocibles</h4>
                 <p>
-                  reservasvuelo.com valora su protección y nunca descubrirá sus
-                  datos reconocibles abiertamente sin su consentimiento.En caso
-                  de que elija una de las capacidades mencionadas a
+                  0fertasdevuelos.com valora su protección y nunca descubrirá
+                  sus datos reconocibles abiertamente sin su consentimiento.En
+                  caso de que elija una de las capacidades mencionadas a
                   continuación, su PII se utilizará de la siguiente manera:
-                  hasta que nos dé su consentimiento, reservasvuelo.comno
+                  hasta que nos dé su consentimiento, 0fertasdevuelos.comno
                   venderá, compartirá, autorizará, comercializará ni arrendará
                   sus datos realmente reconocibles además de lo determinado en
                   este plan de seguridad. No se espera que nos proporcione
@@ -71,7 +71,7 @@ const Privacy = () => {
                   incorporar los datos mencionados, no podrá acceder ni
                   visualizar todas las partes de nuestro sitio. correo
                   electrónico y otras comunicaciones deliberadas: también puede
-                  asociarse con reservasvuelo.com por correo electrónico,
+                  asociarse con 0fertasdevuelos.com por correo electrónico,
                   nuestro sitio, teléfono celular, registrado como una copia
                   impresa o por otros medios. Recopilamos todos los datos
                   contenidos en estos mensajes, y dado que dichos datos pueden

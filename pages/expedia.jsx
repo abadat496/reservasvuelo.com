@@ -67,16 +67,16 @@ const Home = ({ langData }) => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <h3 className="mb-4">Bienvenido a reservasvuelo.com</h3>
+              <h3 className="mb-4">Bienvenido a 0fertasdevuelos.com</h3>
             </div>
 
             <div className="col-md-12 text-left">
               <div className="">
                 <p>
                   ¡Tu destino ideal para reservas de vuelos asequibles! En
-                  reservasvuelo.com, nos especializamos en ayudar a los clientes
-                  de Expedia a encontrar tarifas de vuelos no publicadas y
-                  gestionar sus necesidades de viaje con facilidad.
+                  0fertasdevuelos.com, nos especializamos en ayudar a los
+                  clientes de Expedia a encontrar tarifas de vuelos no
+                  publicadas y gestionar sus necesidades de viaje con facilidad.
                   <br></br>
                   <br></br>
                   <strong>Nuestros Servicios Reservas de Vuelos:</strong>{" "}
