@@ -97,10 +97,7 @@ const Contact = () => {
                   </div>
                   <div className="cont-text">
                     <h6>Ubicación de la compañía</h6>
-                    <p>
-                      HIMANSHU PURI SOLE MBR 48221 NOTTINGHILL LN CANTON, MI
-                      48188
-                    </p>
+                    <p>1440 Sixth Line #7 Oakville, ON L6H 1X7 Canada</p>
                   </div>
                 </li>
                 <li>
