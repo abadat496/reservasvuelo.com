@@ -38,8 +38,8 @@ const Footer = ({ langData }) => {
                 </li>
                 <li>
                   <a href="">
-                    <i class="fa-solid fa-location-dot"></i> HIMANSHU PURI SOLE
-                    MBR 48221 NOTTINGHILL LN CANTON, MI 48188
+                    <i class="fa-solid fa-location-dot"></i> 1440 Sixth Line #7
+                    Oakville, ON L6H 1X7 Canada
                   </a>
                 </li>
               </ul>
